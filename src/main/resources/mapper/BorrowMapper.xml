@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.aishang.springboot.dao.BorrowMapper">
+  <resultMap id="BaseResultMap" type="com.aishang.springboot.po.Borrow">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="借书记录号" jdbcType="INTEGER" property="借书记录号" />
+    <result column="会员编号" jdbcType="VARCHAR" property="会员编号" />
+    <result column="书名" jdbcType="VARCHAR" property="书名" />
+    <result column="借书日期" jdbcType="DATE" property="借书日期" />
+  </resultMap>
+</mapper>

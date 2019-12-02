@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.aishang.springboot.dao.ProsMapper">
+  <resultMap id="BaseResultMap" type="com.aishang.springboot.po.Pros">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="pId" jdbcType="VARCHAR" property="pid" />
+    <result column="pName" jdbcType="VARCHAR" property="pname" />
+    <result column="pPrice" jdbcType="DOUBLE" property="pprice" />
+    <result column="pStock" jdbcType="INTEGER" property="pstock" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.aishang.springboot.dao.CompanyMapper">
+  <resultMap id="BaseResultMap" type="com.aishang.springboot.po.Company">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="emp_no" jdbcType="VARCHAR" property="empNo" />
+    <result column="emp_name" jdbcType="VARCHAR" property="empName" />
+    <result column="manager_no" jdbcType="VARCHAR" property="managerNo" />
+  </resultMap>
+</mapper>

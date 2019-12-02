@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.aishang.springboot.dao.DepartmentMapper">
+  <resultMap id="BaseResultMap" type="com.aishang.springboot.po.Department">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="com_id" jdbcType="VARCHAR" property="comId" />
+    <result column="com_name" jdbcType="VARCHAR" property="comName" />
+    <result column="com_manager" jdbcType="VARCHAR" property="comManager" />
+    <result column="com_total" jdbcType="VARCHAR" property="comTotal" />
+  </resultMap>
+</mapper>
